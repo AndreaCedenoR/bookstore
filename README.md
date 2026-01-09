@@ -25,23 +25,25 @@ Sigue estos pasos para levantar el proyecto localmente:
    cd bookstore-inventory-api
 
 Crear y activar entorno virtual:
-code
-Bash
-python -m venv venv
+    ```bash
+    python -m venv venv
+
 # En Windows:
-.\venv\Scripts\activate
+    ```bash
+    .\venv\Scripts\activate
+
 Instalar dependencias:
-code
-Bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
+
 Ejecutar migraciones:
-code
-Bash
-python manage.py migrate
+    ```bash
+    python manage.py migrate
+
 Iniciar el servidor:
-code
-Bash
-python manage.py runserver
+    ```bash
+    python manage.py runserver
+    
 La API estará disponible en: http://127.0.0.1:8000/api/
 🛣️ Endpoints Principales
 Método	Endpoint	Descripción
