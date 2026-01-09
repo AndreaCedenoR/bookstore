@@ -31,7 +31,7 @@ Crear y activar entorno virtual:
 # En Windows:
     ```bash
     .\venv\Scripts\activate
-    ```
+    
 
 Instalar dependencias:
     ```bash
